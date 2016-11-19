@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'microsoft yahei',Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#666;
+    line-height: 20px;
+    background-color:#fff;
+}
+
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:100;
+}
+
+@font-face{
+    font-family: 'lantingcaoxihei';
+    src: url('../libs/fonts/兰亭超细黑.ttf')
+}
+
+/* header*/
+.header{
+    height: 50px;
+    margin:0 50px;
+}
+.header-logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+.header-logo span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image:url('../images/icon-fade.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.header-logo span:hover,span.logo-act{
+    background-image:url('../images/icon-color.png');
+}
+.header-menu{
+    width: 50px;
+    position: absolute;
+    top: 55px;
+    display: none;
+}
+.header-menu li{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+.header-menu li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size:18px;
+    color:#a0a0a0;
+}
+.header-menu li a:hover{
+    color:#3d7751;
+}
+
+.header-right{
+    float: right;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+
+}
+.right-icon{
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background: #e0e0e0;
+    color:#a0a0a0;
+    cursor: pointer;
+}
+
+/* footer */
+
+/* main */
+.main{
+    width: 1200px;
+    margin:0 auto;
+}

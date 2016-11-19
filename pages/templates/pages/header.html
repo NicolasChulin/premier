@@ -1,0 +1,41 @@
+{% load static %}
+{% block header %}
+    <div class="header">
+        <div class="header-logo"><span></span></div>
+        <div class="header-menu">
+            <ul>
+                <li>
+                    <a href="{% url 'premier:index' %}">P</a>
+                </li>
+                <li>
+                    <a href="{% url 'premier:index' %}">R</a>
+                </li>
+                <li>
+                    <a href="{% url 'premier:index' %}">E</a>
+                </li>
+                <li>
+                    <a href="{% url 'premier:index' %}">M</a>
+                </li>
+                <li>
+                    <a href="{% url 'premier:index' %}">I</a>
+                </li>
+                <li>
+                    <a href="{% url 'premier:index' %}">E</a>
+                </li>
+                <li>
+                    <a href="{% url 'premier:index' %}">R</a>
+                </li>
+                <li class="logout">
+                    <a href="{% url 'premier:index' %}"><i class="fa fa-dot-circle-o"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <div class="right-icon">
+                <i class="fa fa-user-o"></i>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
